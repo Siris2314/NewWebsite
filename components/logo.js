@@ -21,10 +21,8 @@ import styled from "@emotion/styled"
 
 const Logo = () => {
 
-    const footPrintImg = require(`/images/footprint${useColorModeValue('', '-dark')}.png`)
+    const footPrintImg = require(`/images/dblogo${useColorModeValue('', '-dark')}.png`)
 
-
-    console.log(footPrintImg)
     return (
         <Link href="/">
             <a>

@@ -1,3 +1,12 @@
+
 module.exports = {
-    reactStrictMode: true
-}
+    reactStrictMode: true,
+    swcMinify: true
+  }
+
+const withTM = require('next-transpile-modules')([
+    // 'drei',
+    'three',
+    // 'postprocessing',
+  ])
+  module.exports = withTM()
